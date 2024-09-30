@@ -1,0 +1,165 @@
+
+Comment
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*////////////////////////////////////////////////////
+                        Geral
+////////////////////////////////////////////////////*/
+a{
+    text-decoration: none;
+    color: black
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a.botao{
+    background-color: #0e8388;
+    border-radius: 10px;
+    color: white;
+    padding: 7px 7px 7px 7px;
+    display: inline-block;
+}
+
+p.para{
+    font-size: 0.8rem;
+    color: #888888;
+}
+
+/*////////////////////////////////////////////////////
+                        Header
+////////////////////////////////////////////////////*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw 3vw 10vw;
+}
+
+header h1{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    padding: 0px 15px 0 0;
+}
+
+/*////////////////////////////////////////////////////
+                    Conteudo
+////////////////////////////////////////////////////*/
+
+main{
+    margin: 0 15vw 0 15vw;
+    text-align: center;
+}
+
+main section.banner p{
+    padding: 15px;
+}
+
+main section.banner h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+/*////////////////////////////////////////////////////
+                    Produtos
+////////////////////////////////////////////////////*/
+
+main section.podrutos{
+    background-color: #CBe4de;
+    margin: 4vw 0 0 0;
+    text-align: center;
+}
+
+main section.podrutos h2{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+main section.podrutos ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+main section.podrutos ul li p{
+    padding: 10px;
+    font-size: 0.8rem;
+}
+main section.podrutos ul li{
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    padding: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
