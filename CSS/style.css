@@ -137,7 +137,7 @@ main section.podrutos ul{
 }
 
 main section.podrutos ul li p{
-    padding: 10px;
+    padding: 25px;
     font-size: 0.8rem;
 }
 main section.podrutos ul li{
@@ -145,6 +145,7 @@ main section.podrutos ul li{
     text-align: center;
     background-color: white;
     padding: 1px;
+    border-radius: 20px;
 }
 
 
