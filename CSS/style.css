@@ -120,38 +120,79 @@ main section.banner h2{
 ////////////////////////////////////////////////////*/
 
 main section.podrutos{
-    background-color: #CBe4de;
-    margin: 4vw 0 0 0;
     text-align: center;
-}
-
-main section.podrutos h2{
-    font-size: 1.4rem;
-    font-weight: bold;
+    background: linear-gradient(#cbe4de , #93aca6) scroll;
+    padding: 2vw 10vw 2vw 10vw;
 }
 
 main section.podrutos ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
-}
-
-main section.podrutos ul li p{
-    padding: 25px;
-    font-size: 0.8rem;
-}
-main section.podrutos ul li{
-    width: 30%;
     text-align: center;
-    background-color: white;
-    padding: 1px;
-    border-radius: 20px;
+    justify-content: center;
 }
 
+main section.podrutos ul li{
+    width: 20%;
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 1vw 25px 1vw 25px;
+}
 
+main section.podrutos p{
+    text-align: center;
+    padding: 1vw 12px 1vw 12px
+}
 
+/*////////////////////////////////////////////////////
+                    build
+////////////////////////////////////////////////////*/
 
+main section.build{
+    padding: 5vw;
+}
 
+main section.build div.div{
+    display: flex;
+    padding: 3vw;
+}
+
+main section.build h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+}
+
+main section.build h3{
+    font-size: 1.4rem;
+    padding: 6vw 3vw 0 3vw;
+}
+
+main section.build p{
+    font-size: 1.1rem;
+    color: #888888;
+    padding: 1.3vw 3vw 0 3vw;
+}
+
+/*////////////////////////////////////////////////////
+                    footer
+////////////////////////////////////////////////////*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw 7vw 1vw 7vw;
+    background-color:   #cbe4de;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    padding: 0 10px 0 10px;
+}
+footer p span{
+    color: #888888;
+}
 
 
 
