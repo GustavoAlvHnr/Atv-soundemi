@@ -195,10 +195,12 @@ footer ul li{
 }
 footer p span{
     color: #888888;
-    font-weight: bold;
 }
 footer ul li a{
     color: #888888;
+}
+footer a{
+    font-weight: bold;
 }
 
 /* ///////////////////////////////////////
