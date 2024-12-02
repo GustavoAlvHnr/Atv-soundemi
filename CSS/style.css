@@ -65,7 +65,7 @@ a.botao{
     background-color: #0e8388;
     border-radius: 10px;
     color: white;
-    padding: 7px 7px 7px 7px;
+    padding: .9vw;
     display: inline-block;
 }
 
@@ -102,7 +102,6 @@ header nav ul li{
 ////////////////////////////////////////////////////*/
 
 main{
-    margin: 0 15vw 0 15vw;
     text-align: center;
 }
 
@@ -113,6 +112,10 @@ main section.banner p{
 main section.banner h2{
     font-weight: bold;
     font-size: 1.4rem;
+}
+main section.banner img{
+    width: 80%;
+    max-width: 800px;
 }
 
 /*////////////////////////////////////////////////////
@@ -197,6 +200,41 @@ footer ul li a{
     color: #888888;
 }
 
+/* ///////////////////////////////////////
+                Respo
+///////////////////////////////////////*/
+@media (max-width: 600px) {
+    header{
+        display: block;
+        text-align: center;
+    }
+    header h1{
+        margin: 2vw;
+    }
+    header nav ul li{
+        width: 40%;
+        padding: 1.7vw;
+    }
+    header nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    main section.podrutos ul li{
+        width: 40%;
+    }
+    main section.build div.div{
+        flex-wrap: wrap;
+    }
+    main section.build img{
+        width:80%;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+    footer ul li{
+        padding: 3vw;
+    }
+  }
 
 
 
